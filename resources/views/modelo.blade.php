@@ -16,7 +16,6 @@
 
             <!-- para incluir a imagem, sugiro usar este código, pois é mais fácil, 
             não precisa colocar o caminho completo, ele acha sozinho -->
-            <img src="<?php echo asset ('img/cosmetico_menu.jpg'); ?>" />
 
         </div>
 

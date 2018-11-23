@@ -15,15 +15,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/vitrine', function () {
-    return view('vitrine');
+Route::get('/header', function(){
+    return view('header');
+});
+
+Route::get('/navbarTop', function () {
+    return view('navbar');
 });
 
 Route::get('/banner', function () {
     return view('banner');
 });
 
+Route::get('/vitrine', function () {
+    return view('vitrine');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
+
 
